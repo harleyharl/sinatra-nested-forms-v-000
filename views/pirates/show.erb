@@ -1,6 +1,9 @@
-<h1> <%=@pirate.name%> </h1>
-<h1> <%=@pirate.weight%> </h1>
-<h1> <%=@pirate.height%> </h1>
+<h1> ARRRR HERE ARE ALL ME CURRENT PIRATES </h1>
+<ul>
+<li> <%=@pirate.name%> </li>
+<li> <%=@pirate.weight%> </li>
+<li> <%=@pirate.height%> </li>
+
 <h1> <%=@pirate.name + "'s" + "Ships"%> </h1>
 <h1> <%@pirate.ships.each do |pirate_ship| %> </h1>
 <h1> <%=pirate_ship.name %> </h1>
